@@ -1,0 +1,23 @@
+{
+  "name": "gbucket-test",
+  "version": "1.0.0",
+  "description": "test to make pdf in gcloud buckets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "list": "node bucket.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/debug-agent": "^5.2.7",
+    "@google-cloud/storage": "^5.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^81.0.0",
+    "node-fetch": "^2.6.1",
+    "pdfmake": "^0.2.0",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
